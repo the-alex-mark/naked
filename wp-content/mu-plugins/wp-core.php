@@ -23,4 +23,9 @@ $wp_core = (object)[
         'remove_action'     => require 'includes/helpers/wp-helpers-remove_action.php',
         'remove_filter'     => require 'includes/helpers/wp-helpers-remove_filter.php'
     ],
+
+    // Дополнительный функционал
+    'support' => [
+        'title_tag'         => require 'includes/support/wp-support-title_tag.php'
+    ]
 ];
