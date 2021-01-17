@@ -19,6 +19,8 @@ $wp_core = (object)[
 
     // Вспомогательный функционал
     'helpers' => [
-        'helpers'           => require 'includes/helpers/wp-helpers.php'
-    ]
+        'helpers'           => require 'includes/helpers/wp-helpers.php',
+        'remove_action'     => require 'includes/helpers/wp-helpers-remove_action.php',
+        'remove_filter'     => require 'includes/helpers/wp-helpers-remove_filter.php'
+    ],
 ];
