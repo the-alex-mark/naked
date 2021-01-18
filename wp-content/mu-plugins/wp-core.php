@@ -29,5 +29,10 @@ $wp_core = (object)[
         'title_tag'         => require 'includes/support/wp-support-title_tag.php',
         'tgmpa'             => require 'includes/support/wp-support-tgmpa.php',
         'svg'               => require 'includes/support/wp-support-svg.php'
+    ],
+
+    // Отключение лишнего функционала
+    'remove' => [
+        'emoji'             => require 'includes/remove/wp-remove-emoji.php'
     ]
 ];
