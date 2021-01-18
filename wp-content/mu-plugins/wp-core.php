@@ -33,6 +33,7 @@ $wp_core = (object)[
 
     // Отключение лишнего функционала
     'remove' => [
-        'emoji'             => require 'includes/remove/wp-remove-emoji.php'
+        'emoji'             => require 'includes/remove/wp-remove-emoji.php',
+        'rss'               => require 'includes/remove/wp-remove-rss.php'
     ]
 ];
