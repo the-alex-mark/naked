@@ -27,6 +27,7 @@ $wp_core = (object)[
     // Дополнительный функционал
     'support' => [
         'title_tag'         => require 'includes/support/wp-support-title_tag.php',
+        'post_count'        => require 'includes/support/wp-support-post_count.php',
         'tgmpa'             => require 'includes/support/wp-support-tgmpa.php',
         'svg'               => require 'includes/support/wp-support-svg.php'
     ],
