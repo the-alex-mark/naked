@@ -45,6 +45,7 @@ $wp_core = (object)[
         'rss'               => require 'includes/remove/wp-remove-rss.php',
 
         'head' => [
+            'links'         => require 'includes/remove/wp-remove-head_links.php',
             'rsd'           => require 'includes/remove/wp-remove-head_rsd.php',
             'wlw'           => require 'includes/remove/wp-remove-head_wlw.php'
         ]
