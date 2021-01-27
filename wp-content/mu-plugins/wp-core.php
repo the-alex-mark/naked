@@ -40,6 +40,7 @@ $wp_core = (object)[
 
     // Отключение лишнего функционала
     'remove' => [
+        'version'           => require 'includes/remove/wp-remove-version.php',
         'emoji'             => require 'includes/remove/wp-remove-emoji.php',
         'rss'               => require 'includes/remove/wp-remove-rss.php',
 
