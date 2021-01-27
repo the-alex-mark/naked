@@ -30,7 +30,12 @@ $wp_core = (object)[
         'post_count'        => require 'includes/support/wp-support-post_count.php',
         'term_filter'       => require 'includes/support/wp-support-term_filter.php',
         'tgmpa'             => require 'includes/support/wp-support-tgmpa.php',
-        'svg'               => require 'includes/support/wp-support-svg.php'
+        'svg'               => require 'includes/support/wp-support-svg.php',
+
+        'info' => [
+            'php_info'      => require 'includes/support/info/wp-support-php_info.php',
+            'php_log'       => require 'includes/support/info/wp-support-php_log.php'
+        ]
     ],
 
     // Отключение лишнего функционала
