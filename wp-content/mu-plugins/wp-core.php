@@ -20,6 +20,7 @@ $wp_core = (object)[
     // Вспомогательный функционал
     'helpers' => [
         'helpers'           => require 'includes/helpers/wp-helpers.php',
+        'dd'                => require 'includes/helpers/wp-helpers-dd.php',
         'remove'            => require 'includes/helpers/wp-helpers-remove.php',
     ],
 
